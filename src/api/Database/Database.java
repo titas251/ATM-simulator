@@ -8,9 +8,9 @@ import java.sql.*;
 
 public class Database {
     private static Connection connect() {
-        final String url = "jdbc:postgresql://localhost/users";
-        final String user = "postgres";
-        final String password = "@`hQ.f?j9gg}.NjK";
+        final String url = "url";               //Databe connection
+        final String user = "user";             
+        final String password = "password";     
 
         Connection conn = null;
         try {
