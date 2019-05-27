@@ -139,10 +139,4 @@ public class Controller implements Initializable, Runnable {
         pause.setOnFinished(e -> stage.close());
         pause.play();
     }
-//--------------------------------------------------------------------------------------
-
-
-
-
-
 }
