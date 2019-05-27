@@ -5,3 +5,5 @@ RFID RC522 reader is used for authentication (Python scripts are used for RFID w
 Project uses PostgreSQL database to store user information.
 GUI is used as well (JavaFX).
 Apache Commons Validator is used for data validation.   
+
+Authors: Titas Krikštaponis, Žygimantas Kramenka
