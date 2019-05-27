@@ -56,8 +56,6 @@ public class Database {
         User user;
 
         String ID = RFID.readID();
-
-        //String SQL = String.format("SELECT * FROM data WHERE id = '%s'", ID);
         String SQL = "SELECT * FROM data WHERE id = ?";
 
         try (Connection conn = connect(); PreparedStatement statement = conn.prepareStatement(SQL)) {
